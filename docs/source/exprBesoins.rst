@@ -17,6 +17,9 @@ Vanir is an historical web site. Various actors can use the web site :
 Package decomposition
 -------------------------
 
+.. image:: ../../Uml/contextPackages.png
+  :alt: context packages diagramm
+
 Use cases
 -----------------------------
 
