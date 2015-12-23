@@ -4,12 +4,13 @@ Vanir project expression of needs
 Context definition
 ----------------------
 
-Vanir is an historical web site. Various actors can use the web site :
+Vanir is a web site about history. Various actors can use the web site.
+And here follows what each actor can do:
 
-- The reader can find, read historicals event pages. But he can also navigate throught events graph.
-- The Editor can create and manipulate historicals event pages and manipulate the event graph
-- The validator can validate pages and graphes
-- The administrador can administrate the web site
+- The reader can find and read historical events pages. He also has the possibility to navigate through events graphs.
+- The editor can create and edit historical events pages and edit the event graph
+- The validator can validate pages and graphs.
+- The administrator can administrate the web site
 
 .. image:: ../../Uml/context.png
   :alt: context diagramm
