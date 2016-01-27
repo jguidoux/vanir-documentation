@@ -16,8 +16,12 @@ build.dependsOn buildDoc
 clean {
     delete 'docs/build'
 }
-    
 
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '2.10'
+}
+    
 
 
 
