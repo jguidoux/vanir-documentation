@@ -1,0 +1,17 @@
+apply plugin: 'base'
+
+task buildDoc( type: Exec) {
+    workingDir 'docs'
+    executable 'make'
+    args 'html'
+
+    standardOutput = new ByteArrayOutputStream()
+    ext.output = {
+        return standardOutput.toString()
+   }
+}
+
+build.dependsOn buildDoc
+
+
+

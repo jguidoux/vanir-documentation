@@ -16,7 +16,7 @@ if you ask to every french poeple : " What happened in 1515 ?" Or just "1515 ?".
 - "What are the consqueances of this battle for Milan ? For the France ? For François 1st himself ?"
 
 Marignan is one of the battle of a war call the Great Italian Wars. François 1st is a young king who just take the power. François 1st need to etablish his power and à Winning battle will be a good deal for him. The battle is one of the first battle where the artillery was used in a large part. The battle during two days wich was not common. About 15,000 soldiers died in this battle which was also not common for the epoch. François 1st win this battle but just close. But he return
-in france with the story of à Great Winning Battle. The propaganda was very strong. The story is written by the winners". 
+in france with the story of à Great Winning Battle. The propaganda was very strong. The story is written by the winners" 
 Marignan is à very interesting battle which had some unique facts due to the Rennaissance new technolosie. This is a battle due to many fact, the Great italien war, a new crowned king etc.
 The consequences for italia, France, arts, François 1st are also very interestings. But even if all french poeple know this battle with this date, All interestings facts about this battle are often ignored. 
 History is a science which can be used to learn more about the "Human Nature". With History we can more understand actual events. 
