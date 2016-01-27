@@ -13,5 +13,11 @@ task buildDoc( type: Exec) {
 
 build.dependsOn buildDoc
 
+clean {
+    delete 'docs/build'
+}
+    
+
+
 
 
