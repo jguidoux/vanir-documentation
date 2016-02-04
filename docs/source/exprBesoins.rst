@@ -1,47 +1,87 @@
 Vanir project expression of needs
-=======================================
+=================================
 
 Objectives
------------
+----------
+What is the goal of History ? This is a very complex question which can be the subject of a philosophic book. This is not or claim here.
+Without args too much, our point of view is that history is for :
 
-The Vanir project is a web site about history. Many web site, books, or in school talk about history with dates or Events to learn par coeur. For exemples : 1515 marignan, Henry IV was murdered by Ravaillac, Charlemagne was crawn Imperator in 800, Constantinople was destroyed in 1453, July, 14th 1789 the take of the bastille, etc. But is it the right way to learn history. What is the interest to learn history ? Is it only to learn dates and old events which has nothing to do with the life of everydays
+- to know the story of past events most precisely as possible.
+- to have or acquire a critical point of view on some past events.
+- to acquire a critical sense on actual events or more generally on modern society.
 
-Exemple : 1515, the battle of Marignan
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Actually, most people known story by dates. For some (or most) schoolchildren, History is a hard school teaching with lots of "learn by heart".
+Talking like this is simplifying what is the History at school. But the fact is that most people, when they left school don't have the feeling
+they acquired on of the previous three points due to their school knowledge in History.
 
-if you ask to every french poeple : " What happened in 1515 ?" Or just "1515 ?". You will certainly have the answer : "Marignan". If you ask for more precise informations, you may have a these answers : "François 1st", "Winning battle", "Italia" and may be "The Renaissance". But is it the rignt informations to remember about this events ? Do, the french poeple know the answer of these questions ?
+The Vanir project is a web site about history which has this three previous objectives.
+This is an ambitious project.
+And we hope, that maybe one day, History teachers will sometimes use it.
 
-- "Why François 1st attack Milan ?"
+ .. à1515 marignan, Henry IV was murdered by Ravaillac, Charlemagne was crawn Imperator in 800, Constantinople was destroyed in 1453, July, 14th 1789 the take of the bastille, etc. But is it the right way to learn history. What is the interest to learn history ? Is it only to learn dates and old events which has nothing to do with the life of everydays
+
+Example : 1515, the battle of Marignano
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+if you ask to every french people the question :
+"What happened in 1515 ?" Or just "1515 ?". You will certainly have the answer : "Marignano" as an automatic answer.
+If you ask for more detailed information, you may have a these answers : "Francis I", "Winning battle", "Italia" and may be "The Renaissance".
+But is it the good information to remember about this events ? Do, the french people know the answer of these questions ?
+
+- "Why Francis I attack Milan ?"
 - "Was it a great battle" ?
-- "What are the consqueances of this battle for Milan ? For the France ? For François 1st himself ?"
+- "What are the consequences of this battle for Milan ? For the France ? For Francis I himself ?"
 
-Marignan is one of the battle of a war call the Great Italian Wars. François 1st is a young king who just take the power. François 1st need to etablish his power and à Winning battle will be a good deal for him. The battle is one of the first battle where the artillery was used in a large part. The battle during two days wich was not common. About 15,000 soldiers died in this battle which was also not common for the epoch. François 1st win this battle but just close. But he return
-in france with the story of à Great Winning Battle. The propaganda was very strong. The story is written by the winners" 
-Marignan is à very interesting battle which had some unique facts due to the Rennaissance new technolosie. This is a battle due to many fact, the Great italien war, a new crowned king etc.
-The consequences for italia, France, arts, François 1st are also very interestings. But even if all french poeple know this battle with this date, All interestings facts about this battle are often ignored. 
+Marignano is one of the battle of a war call the Great Italian Wars. Francis I is a new young crown king (20yo).
+Francis I, need to establish his power and à Winning battle will be a good deal for him.
+The battle is one of the first battle where the artillery was used in a large part.
+The battle during two days (which was not common).
+About 15,000 soldiers died in this battle which was also not common for the epoch.
+Francis I win this battle but just close. But he return in france with the story of à Great Winning Battle.
+The propaganda was very active ( "*The story is written by the winners*" )
+Marignano is à very interesting battle which had some unique facts due to the Renaissance, new technologies.
+This is a battle due to many fact, the Great italian war, a new crowned king etc.
+The consequences for Italia, France, arts, Francis I are also very interesting.
+But even if all french people know this battle with this date, All interesting facts about this battle are often ignored.
 History is a science which can be used to learn more about the "Human Nature". With History we can more understand actual events. 
-The objective of the Vanir project is to showcase causes and consequences about history events and not about dates. In our Opinion, one of the key to better understand or world is to talk about causes and consequences. 
+The objective of the Vanir project is to showcase causes and consequences about history events and not about dates.
+In our Opinion, one of the key to better understand or world is to talk about causes and consequences.
 
+
+Web site actors
+---------------
 
 Various actors can use the web site.
 And here follows what each actor can do:
 
-- The reader can find and read historical events pages. He also has the possibility to navigate through events graphs.
-- The editor can create and edit historical events pages and edit the event graph
-- The validator can validate pages and graphs.
-- The administrator can administrate the web site
+* The **reader** can :
 
-+-----------------+-------------------------+--------------------+------------------------+
-| actor \\ action | historical events pages | events graphs      | web site configuration |
-+=================+=========================+====================+========================+
-| reader          | search / read           | browse             | read                   |
-+-----------------+-------------------------+--------------------+------------------------+
-| editor          | create / edit           | create / edit      | ✗                      |
-+-----------------+-------------------------+--------------------+------------------------+
-| validator       | validate / publish      | validate / publish | ✗                      |
-+-----------------+-------------------------+--------------------+------------------------+
-| administrator   | ✗                       | ✗                  | manage                 |
-+-----------------+-------------------------+--------------------+------------------------+
+    - find and read historical **story** pages.
+    - He also has the possibility to navigate through **causes** and **consequences** of this story.
+
+- The **editor** can :
+
+    - create and edit historical **story** pages
+
+- The **validator** can :
+
+    - validate **story** contents.
+
+- The **administrator** can : 
+
+    - administrate the web site
+
+.. +-----------------+-------------------------+--------------------+------------------------+
+  | actor \\ action | historical events pages | events graphs      | web site configuration |
+  +=================+=========================+====================+========================+
+  | reader          | search / read           | browse             | read                   |
+  +-----------------+-------------------------+--------------------+------------------------+
+  | editor          | create / edit           | create / edit      | ✗                      |
+  +-----------------+-------------------------+--------------------+------------------------+
+  | validator       | validate / publish      | validate / publish | ✗                      |
+  +-----------------+-------------------------+--------------------+------------------------+
+  | administrator   | ✗                       | ✗                  | manage                 |
+  +-----------------+-------------------------+--------------------+------------------------+
 
 .. image:: ../../Uml/context.png
   :alt: context diagramm
@@ -52,7 +92,14 @@ Package decomposition
 .. image:: ../../Uml/contextPackages.png
   :alt: context packages diagramm
 
+The **Home** package contain the content of the **home page** of the website.
+
+The **Story page** package all tho content of a **story**.
+A story is an event (as the Marignano battle) with all the **causes** and **consequences** of the event.
+
+THe **Administration** package is all tools used by the **administrator** to administrate the complete web site.
+
 Use cases
------------------------------
+---------
 
 
