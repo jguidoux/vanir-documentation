@@ -102,4 +102,29 @@ THe **Administration** package is all tools used by the **administrator** to adm
 Use cases
 ---------
 
+The Home page package
+~~~~~~~~~~~~~~~~~~~~~
+
+The Story package
+~~~~~~~~~~~~~~~~~
+
+.. image:: ../../Uml/contextStoryPage.png
+  :alt: story page use cases diagram
+
+The **reader** can visit a Story pages and read it's contents
+
+The **editor** can visit a Story pages and read it's contents
+The **editor** can edit a Story pages contents
+
+The **validator** can visit a Story pages and read it's contents
+The **validator** can check if the story page contents is **correct** or not.
+The meaning on a **correct** page will be discuss later.
+The **validator** can edit a Story pages contents to correct it.
+
+
+
+
+The Adminitration package
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
 
