@@ -124,7 +124,47 @@ The **validator** can edit a Story pages contents to correct it.
 
 
 
-The Adminitration package
-~~~~~~~~~~~~~~~~~~~~~~~~~
+The Administration package
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
+The stories
+-----------
+
+A story will describe a story events.
+A story can be separate in three parts :
+
+* The events itself
+* The different causes of this event
+* The different consequences of this event
+
+The event
+~~~~~~~~~
+
+The events can be two things :
+
+* The complete description of this event
+* A simple resume of it. With this resume, the reader should understand the main caracteristics of this event.
+
+The causes
+~~~~~~~~~~
+
+The causes can be :
+
+* An other event
+* The will of a person or of a group of person
+* A context
+* An other story
+
+An event can have several causes.
+Some causes can be must important than others.
+Causes can have some other causes.
+
+The consequences
+~~~~~~~~~~~~~~~~
+
+The consequences can be
+
+* An other event
+* Changes on a person or a group of person
+* An other story
