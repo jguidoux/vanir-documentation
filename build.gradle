@@ -1,20 +1,23 @@
 apply plugin: 'base'
 
-task buildDoc( type: Exec) {
+task buildDoc( type: Exec, ) {
+    group 'Documentations'
+    description 'generate the documentation'
+
     workingDir 'docs'
     executable 'make'
     args 'html'
+    inputs.dir project.file(DOC_SOURCE_DIR)
+    outputs.dir project.file(DOC_OUTPUT_DIR)
 
-    standardOutput = new ByteArrayOutputStream()
-    ext.output = {
-        return standardOutput.toString()
-   }
+
 }
 
 build.dependsOn buildDoc
 
 clean {
-    delete 'docs/build'
+    logger.info "delete $DOC_OUTPUT_DIR folder"
+    delete DOC_OUTPUT_DIR
 }
 
 
