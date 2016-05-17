@@ -1,4 +1,4 @@
-$(function() {
+$(function () {
 
     $('#texteJQ').html('Hello world. Ce texte est affiché par jQuery.');
 
@@ -10,4 +10,11 @@ function toggler(divId) {
     $("#" + divId).toggle();
     $("#" + active).toggle();
     active = divId;
+}
+
+function writeResume(content) {
+    var resumDiv = $("#resume-area");
+    resumDiv.empty();
+    resumDiv.append(content)
+
 }
