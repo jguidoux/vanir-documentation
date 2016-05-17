@@ -1,3 +1,9 @@
 .hidden {
     display:none;
 }
+
+.panel-resizable {
+    height: 60vh;
+    resize: vertical;
+    overflow: auto
+}

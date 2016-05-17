@@ -18,3 +18,7 @@ function writeResume(content) {
     resumDiv.append(content)
 
 }
+
+function isEmpty(str) {
+    return (!str || 0 === str.length);
+}

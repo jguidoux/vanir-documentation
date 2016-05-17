@@ -17,7 +17,6 @@ var options = {};
 var timeline = new vis.Timeline(container, items, options);
 
 
-
 var resumeMap = {};
 resumeMap[1] = "L’apparition des Celtes est généralement située dans le courant du IIe millénaire av. J.-C. (protohistoire).";
 resumeMap[2] = "Le Hallstatt ou Premier âge du fer est une période succédant à l'âge du bronze final et précédant la période de La Tène ou Second âge du fer (fin de la Protohistoire). Il tire son nom de celui d'un site archéologique qui se trouve à Hallstatt dans le Salzkammergut en Autriche.";
@@ -26,5 +25,16 @@ resumeMap[4] = "La guerre des Gaules, de 58 à 51 av. J.-C., est la guerre de co
 resumeMap[5] = "En 27, Auguste organise administrativement la gaule en fondant 3 provinces gallo-romaines";
 
 timeline.on('select', function (properties) {
-    writeResume(resumeMap[properties["items"]]);
+    var id = properties["items"];
+    var contents = resumeMap[id];
+    if (isEmpty(id)) {
+        contents = `<img class="first-slide img-responsive center-block"
+                                 src="../images/Celtes-et-Gaulois-11.jpg"
+                                 alt="First slide">
+                            <h1>Nos ancêtres les gaulois</h1>
+                            <p>Qui étaient nos fameux encêtres ? étaient ils vraiment «gaulois» ? Qu'est-ce qu'un
+                                gaulois ?</p>`;
+    }
+
+    writeResume(contents);
 });
