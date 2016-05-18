@@ -30,8 +30,7 @@ timeline.on('select', function (properties) {
     if (isEmpty(id)) {
         contents = `<img class="first-slide img-responsive center-block"
                                  src="../images/Celtes-et-Gaulois-11.jpg"
-                                 alt="First slide">
-                            <h1>Nos ancêtres les gaulois</h1>
+                                 alt="First slide" width="300">
                             <p>Qui étaient nos fameux encêtres ? étaient ils vraiment «gaulois» ? Qu'est-ce qu'un
                                 gaulois ?</p>`;
     }
